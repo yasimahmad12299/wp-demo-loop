@@ -1,11 +1,5 @@
 # wp-demo-loop
 
-<h3>WP Admin Credentials: </h3>
-
-<p>Username: demo-admin</p>
-<p>Password: bE7B(bWHT8*Ol%J^@K</p>
-<hr>
-
 <h3>WP CLI Trigger to Import the JSON File: </h3>
 
 wp eval-file import_data.php
@@ -21,6 +15,16 @@ wp eval-file import_data.php
 <p>I have also used WP SMTP plugin to make sure the emails are being delivered from the local host. I have used Gmail API to send emails and the from email is yasim.ahmad@gmail.com</p>
 <hr>
 
+<h3>Events Listing Page: </h3>
+BASE_URL/events
+<p>Please replace the BASE_URL as per the host name.</p>
+<hr>
+
 <h3>End point to return events list in JSON: </h3>
 BASE_URL/wp-json/events/list
 <p>Please replace the BASE_URL as per the host name.</p>
+<p>The code for the endpoint is written in functions.php file</p>
+<hr>
+
+<h3>Estimates and time tracking: </h3>
+I have created an excel sheet with the estimated and tracked time. It has also been pushed to the repository under the directory "Estimates".
