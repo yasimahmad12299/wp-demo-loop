@@ -20,7 +20,7 @@
  */
 
  
-
+date_default_timezone_set("Europe/Berlin");
 // if(empty($_SERVER['SERVER_NAME'])) $_SERVER['SERVER_NAME']='www.wpdemoloop.com';
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */

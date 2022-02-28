@@ -2,7 +2,7 @@
 /* Template Name: Events List */
 
 get_header(); 
-date_default_timezone_set("Asia/Karachi");
+
 ?>
 
 
